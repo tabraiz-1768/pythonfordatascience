@@ -1,0 +1,4 @@
+model,val_accuracy,val_f1_macro,val_f1_weighted,test_accuracy,test_f1_macro,test_f1_weighted,note
+TFIDF+LinearSVC,0.4745762711864407,0.44996385765264485,0.4520751632840994,0.4117647058823529,0.40499341616988677,0.40685673967928043,
+Word2Vec(avg)+LogReg,0.07627118644067797,0.030951781970649895,0.031476388444728706,0.11764705882352941,0.058558507578115426,0.058250275749039966,
+Sentence-BERT (MiniLM)+LogReg,,,,,,,Transformer embedding step skipped: ModuleNotFoundError: No module named 'sentence_transformers'
